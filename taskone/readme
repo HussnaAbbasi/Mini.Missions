@@ -1,0 +1,89 @@
+To-Do List Application (C++)
+A simple console-based To-Do list application built in C++ that allows users to:
+
+Add tasks to the list
+Mark tasks as completed
+View the list of tasks with their completion status
+Features
+Add Task: Allows users to add a new task with a description.
+Mark Task as Completed: Marks a task as completed by selecting it from the list.
+View Tasks: Displays all tasks in the list with their current completion status.
+Exit: Exits the application.
+Requirements
+A C++ compiler that supports C++11 or later.
+Standard C++ libraries (No external libraries are required).
+Compilation and Execution
+Clone the repository or download the source code files.
+
+Open a terminal or command prompt.
+
+Navigate to the directory containing the source code.
+
+To compile the application, run the following command:
+
+Copy
+g++ -o todoapp todoapp.cpp
+To run the application, use the following command:
+
+bash
+Copy
+./todoapp
+Usage
+Once the application starts, the following menu will appear:
+
+mathematica
+Copy
+To-Do List Application
+1. Add Task
+2. Mark Task as Completed
+3. View Tasks
+4. Exit
+Enter your choice: 
+Options:
+Add Task:
+
+Enter the task description when prompted.
+The task will be added to the list with a status of "incomplete".
+Mark Task as Completed:
+
+The program will display the list of current tasks.
+You will be prompted to enter the task number to mark it as completed.
+View Tasks:
+
+Displays the list of tasks with their current status (Completed/Incomplete).
+Exit:
+
+Exits the program.
+Example
+Here’s an example interaction with the application:
+
+mathematica
+Copy
+To-Do List Application
+1. Add Task
+2. Mark Task as Completed
+3. View Tasks
+4. Exit
+Enter your choice: 1
+Enter task description: Buy groceries
+Task 'Buy groceries' added successfully!
+
+To-Do List Application
+1. Add Task
+2. Mark Task as Completed
+3. View Tasks
+4. Exit
+Enter your choice: 3
+Current Tasks:
+1. Buy groceries
+
+To-Do List Application
+1. Add Task
+2. Mark Task as Completed
+3. View Tasks
+4. Exit
+Enter your choice: 2
+Enter the task number you want to mark as completed: 1
+Task 'Buy groceries' marked as completed!
+License
+This project is open source and available under the MIT License.
